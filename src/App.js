@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import { elements } from "./periodictable.json";
+import Table from "./Table";
 function App() {
-    console.log(elements[0]);
     return (
         <div className="App">
-            <h1> Hello </h1>
+            <h1> THE PERIODIC TABLE OF ELEMENTS </h1>
+            <Table />
         </div>
     );
 }
